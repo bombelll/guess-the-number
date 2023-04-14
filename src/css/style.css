@@ -8,7 +8,7 @@
 
 body {
     background-color: #6fc0e6;
-    font-family: Montserrat ,sans-serif !important;
+    font-family: Montserrat, sans-serif !important;
     overflow: hidden;
 }
 
@@ -47,23 +47,23 @@ bold {
     text-align: center;
 }
 
-.container-box__head > p {
+.container-box__head>p {
     font-size: 20px;
 }
 
-.container-box__content{
+.container-box__content {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column; 
+    flex-direction: column;
     margin-top: 20px;
     gap: 10px;
 }
 
-.container-box__content > input {
+.container-box__content>input {
     padding: 10px 10px;
-    border: 2px solid black;
-    border-radius: 10px;
+    border: solid 2px #eee;
+    border-radius: 3px;
     outline: none;
 }
 
@@ -87,7 +87,7 @@ bold {
     top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     background-color: #fff;
     padding: 2em 20px;
     max-width: 275px;
@@ -113,7 +113,7 @@ bold {
 
 @media only screen and (min-width: 450px) {
     .modal {
-        max-width:400px
+        max-width: 400px
     }
 }
 
@@ -135,5 +135,6 @@ bold {
 }
 
 .active {
-    background-color: rgb(78, 159, 197, .5);;
+    background-color: rgb(78, 159, 197, .5);
+    ;
 }
