@@ -23,11 +23,11 @@ const css = {
 }
 
 const addClass = (element, css) => {
-    element.classList.add(css)
+    element.classList.add(css);
 }
 
 const removeClass = (element, css) => {
-    element.classList.remove(css)
+    element.classList.remove(css);
 }
 
 const isRequired = value => value === '' ? false : true;
