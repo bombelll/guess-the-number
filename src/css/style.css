@@ -19,6 +19,10 @@ button {
     cursor: pointer;
 }
 
+bold {
+    font-weight: 700;
+}
+
 .container {
     display: flex;
     justify-content: center;

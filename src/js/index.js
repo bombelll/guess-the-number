@@ -50,6 +50,10 @@ const checkAnswer = () => {
     if (guessedNumber > 100 || guessedNumber < 1) {
         error.innerHTML = 'Number must be between 1-100';
         return;
+    } else if (guessedNumber > randomNumber) {
+        error.innerHTML = 'The number is <bold>less</bold>'
+    } else if (guessedNumber < randomNumber) {
+        error.innerHTML = 'The number is <bold>greater</bold>'
     } else {
         error.innerHTML = '';
     }
