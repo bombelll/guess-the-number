@@ -5,9 +5,14 @@
     <img src="https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
 </p>
 
-#### Install Vite
+#### Clone Repository
 ```console
-npm create vite@latest
+git clone https://github.com/bombelll/guess-the-number.git
+```
+
+#### Install Node Package
+```console
+npm i
 ```
 
 #### Run App
