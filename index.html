@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guess The Number App</title>
+  <link rel="icon" href="src/assets/javascript.svg">
+  <script src="src/js/index.js" type="module" defer></script>
+  <link rel="stylesheet" href="src/css/style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="container__wrapper">
+      <div class="container-box" id="js-box">
+        <div class="container-box__head">
+          <h2 class="container-box__title">I have a number between 1-100 for you</h2>
+          <p>Can you guess it?</p>
+        </div>
+        <div class="container-box__content">
+          <input class="test" type="number" placeholder="enter number" id="js-number">
+          <small style="color:#ed4245"></small>
+          <button class="btn" id="js-check-number">Guess</button>
+          <span id="js-failed-tries">failed tries:&nbsp;</span>
+        </div>
+      </div>
+      <div class="modal" id="js-modal">
+        <div class="modal__content">
+          <h3 class="modal-title">🎉 Congratulations</h3>
+          <span class="modal-description">You're guessed the number</span>
+          <div class="modal__buttons">
+            <button class="btn" id="js-close-modal">
+              <span>🔁 Play Again</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

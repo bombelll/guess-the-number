@@ -1,0 +1,134 @@
+@import"https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap";
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #6fc0e6;
+    font-family: Montserrat ,sans-serif !important;
+    /* overflow: hidden; */
+}
+
+button {
+    background: none;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container__wrapper {
+    padding: 0 20px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.container-box {
+    display: block;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.container-box__head {
+    text-align: center;
+}
+
+.container-box__head > p {
+    font-size: 20px;
+}
+
+.container-box__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.container-box__content > input {
+    padding: 10px 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #6fc0e6;
+    border-radius: 10px;
+    color: #Fff;
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.btn:hover {
+    background-color: #4e9fc5;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+    background-color: #fff;
+    padding: 2em 20px;
+    max-width: 275px;
+    width: 100%;
+    border-radius: 1rem;
+    box-shadow: 1px 5px 39px -12px #42445a;
+    visibility: hidden;
+}
+
+.modal .modal__content {
+    display: flex;
+    flex-direction: column
+}
+
+.modal .modal-title {
+    font-size: 1.5rem;
+    margin-bottom: 15px
+}
+
+.modal .modal-description {
+    margin-bottom: 15px
+}
+
+@media only screen and (min-width: 450px) {
+    .modal {
+        max-width:400px
+    }
+}
+
+.modal__buttons {
+    display: flex;
+    justify-content: flex-end
+}
+
+.modal__buttons>.btn {
+    box-shadow: 1px 5px 39px -12px #42445a
+}
+
+.correct {
+    border: 2px solid #5cb85c !important;
+}
+
+.incorrect {
+    border: 2px solid #d9534f !important;
+}
+
+.active {
+    background-color: rgb(78, 159, 197, .5);;
+}
