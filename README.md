@@ -10,11 +10,6 @@
 npm create vite@latest
 ```
 
-#### Add Saas
-```console
-npm add -D sass
-```
-
 #### Run App
 ```console
 npm run dev
