@@ -9,7 +9,7 @@
 body {
     background-color: #6fc0e6;
     font-family: Montserrat ,sans-serif !important;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 button {
@@ -60,6 +60,7 @@ button {
     padding: 10px 10px;
     border: 2px solid black;
     border-radius: 10px;
+    outline: none;
 }
 
 .btn {

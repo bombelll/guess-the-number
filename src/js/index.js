@@ -42,12 +42,14 @@ const checkAnswer = () => {
 
     if (!isRequired(inputValue)) {
         error.innerHTML = 'This field cannot be empty';
+        return;
     } else {
         error.innerHTML = '';
     }
 
     if (guessedNumber > 100 || guessedNumber < 1) {
         error.innerHTML = 'Number must be between 1-100';
+        return;
     } else {
         error.innerHTML = '';
     }
